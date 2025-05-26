@@ -4,8 +4,10 @@ web = Web()
 
 web.open_web_site()
 
-web.fill_login_Username()
+web.fill_login()
 
-web.fill_login_password()
+web.select_product()
+
+web.fill_checkout()
 
 input("Pressione Enter para sair.")
